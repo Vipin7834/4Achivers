@@ -1,0 +1,597 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #section1 {
+
+        /* background-image: linear-gradient(135deg, rgb(69, 22, 73), rgb(23, 19, 25), rgb(0, 0, 0)); */
+        height: 650px;
+        background-image: url('animation2.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+    }
+
+    #section1 .nav .nav-item .dropdown-menu {
+        color: white;
+        background-color: rgb(22, 39, 101);
+        background-image: linear-gradient(135deg, rgb(67, 108, 155), black);
+    }
+
+
+    .nav a {
+
+        color: white;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+    .nav a:hover {
+        color: rgb(37, 86, 142);
+        text-shadow: 10px 10px 15px black;
+        /* background-image: linear-gradient(rgb(65, 21, 152), blue); */
+    }
+
+    #section2 h2 {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(22, 39, 101)
+    }
+
+    #section2 p {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+    }
+    #section2 .container .row .col a{
+        text-decoration: none;
+        /* border: 2px solid red; */
+        margin-left: 135px;
+    }
+
+
+
+    #section4 .row .col {
+        /* border: 2px solid black; */
+        padding: 10px 10px;
+        border-radius: 20px;
+        background-color: rgb(22, 39, 101);
+        color: white;
+        height: 150px;
+
+
+    }
+
+    #section4 .row .col {
+        box-shadow: 10px 10px 20px black;
+    }
+
+    #section5 {
+
+        background-image: url('news24.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #section5 h2 {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(243, 238, 238);
+    }
+
+    #section5 p {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    #section5 .row .col {
+        justify-content: center;
+        text-align: center;
+
+
+        /* background-color: white; */
+
+    }
+
+    #section5 .row .col img {
+        border: 2px solid gray;
+        box-shadow: 10px 10px 10px rgb(139, 136, 136);
+    }
+
+    #section6 h2 {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(22, 39, 101);
+    }
+
+    #section6 img {
+        /* border: 2px solid black; */
+        box-shadow: 10px 10px 30px rgb(22, 39, 101);
+
+    }
+
+    #section7 h2 {
+        font-size: 50px;
+        text-align: center;
+        /* color: rgb(22, 39, 101); */
+        color: white;
+    }
+
+    #section7 {
+
+        /* background-image: url('animated5.gif'); */
+        background-color: rgb(22, 39, 101);
+        background-image: linear-gradient(135deg, rgb(22, 39, 101), black);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #section8 h2 {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(22, 39, 101);
+
+    }
+
+    #section9 {
+        /* background-color: black; */
+        background-image: url('lastanimated2.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #section9 h5 {
+        color: white;
+    }
+
+    #section9 .container .row .col-sm a {
+        color: rgb(160, 158, 158);
+        text-decoration: none;
+
+    }
+
+    #section9 .container .row .col-sm a:hover {
+        color: rgb(225, 223, 223);
+
+    }
+
+    #section9 .container .row .col-sm h6 {
+        color: white;
+    }
+
+    #section9 .container .row .col-sm p {
+        color: gray
+    }
+
+    #section9 .container .blog img {
+
+        color: white;
+    }
+
+    #section9 .container .blog a {
+        color: white;
+        text-decoration: none;
+        margin-left: 25px;
+    }
+</style>
+
+<body>
+
+    <!-- section first -->
+    <div class="container-fluid " id="section1">
+        <div class="container-fluid">
+            <nav class="nav pt-5 " style=" justify-content: end; ">
+                <img src="logo.png" alt="" class="image px-5" style="height:50px;  margin-right: 300px;">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About Us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Portfolia
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Website</a></li>
+                        <li><a class="dropdown-item" href="#">Branding</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <li><a class="dropdown-item" href="#">Advertising</a></li>
+                        <li><a class="dropdown-item" href="#">Social media</a></li>
+                    </ul>
+                </li>
+
+                <a href="#" class="nav-link ">Blog</a>
+                <a href="#" class="nav-link ">Contact Us</a>
+                <span>
+                    <div class="search-button" style="display: flex;">
+                        <input type="search" class="form-control" placeholder="Search">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </div>
+                </span>
+
+
+            </nav>
+
+            <!-- banner -->
+            <div class="row m-5">
+                <div class="col-sm"> <br><br>
+                    <h1 style="color:white; font-weight: 700; font-size: 75px;">4ACHIEVERS</h1>
+                    <p style="color: rgb(96, 137, 185); font-size: 25px;">“The only goals you don’t achieve in life are the goals you don’t set.”</p>
+                    <p style="color:white; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis odio officiis consequatur ipsam iure ad voluptates! Nostrum modi vitae, reiciendis minus quo similique officia, perspiciatis molestias, omnis dolore vel?</p>
+                    <br>
+                    <p style="color: white; font-size: 25px">Let's get started</p>
+                    <button type="button" class="btn btn-primary px-4 pt-2 pb-2" style="border-radius: 25px;">Requested a Proposal</button>
+                </div>
+                <div class="col-sm">
+                    <!-- <img src="banner-image2.gif" alt="" height="250px"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- section second -->
+
+    <div class="container-fluid pt-5 pb-5" id="section2" style=" background-color: white; ">
+        <div class="container pt-5 pb-5">
+            <h2>| Popular Courses |</h2> <br>
+            <p>“For the best return on your money, pour your purse into your head.”</p><br><br>
+            <div class="row">
+                <div class="col" style="border-right: 3px solid black">
+                    <img src="fullStack-removebg-preview.png" alt="" height="75px" style="margin-left: 150px;"> <br><br>
+                    <h2>Full Stack Development</h2> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas voluptates
+                        reprehenderit eveniet vero, fugiat expedita quam enim nihil asperiores minus placeat quas sit
+                        perspiciatis, quisquam, unde sapiente amet fugit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas voluptates
+                        reprehenderit eveniet vero, fugiat expedita quam enim nihil asperiores minus placeat quas sit
+                        perspiciatis, quisquam, unde sapiente amet fugit.</p>
+                    <a href="#">More Information</a>
+                </div>
+                <div class="col ">
+                    <img src="dataScience-removebg-preview.png" alt="" height="125px" style="margin-left: 130px;">
+                    <h2>Data Science</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas voluptates
+                        reprehenderit eveniet vero, fugiat expedita quam enim nihil asperiores minus placeat quas sit
+                        perspiciatis, quisquam, unde sapiente amet fugit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas voluptates
+                        reprehenderit eveniet vero, fugiat expedita quam enim nihil asperiores minus placeat quas sit
+                        perspiciatis, quisquam, unde sapiente amet fugit.</p>
+                    <a href="#">More Information</a>
+                </div>
+                <div class="col" style="border-left: 3px solid black; ">
+                    <img src="softwareTesting-removebg-preview.png" alt="" height="75px"
+                        style=" margin-left: 130px;"><br><br><br>
+                    <h2>Software Testing</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas voluptates
+                        reprehenderit eveniet vero, fugiat expedita quam enim nihil asperiores minus placeat quas sit
+                        perspiciatis, quisquam, unde sapiente amet fugit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas voluptates
+                        reprehenderit eveniet vero, fugiat expedita quam enim nihil asperiores minus placeat quas sit
+                        perspiciatis, quisquam, unde sapiente amet fugit.</p>
+                    <a href="#">More Information</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section third -->
+    <div class="container-fluid p-5" id="section2
+      "
+        style="background-color: rgb(29, 29, 56);color: white; background-image: url('animation3.gif'); background-size: cover; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row p-5" style="font-size: 30px; text-align: center;">
+                <div class="col">
+                    <h1>30+</h1>
+                    <h1>Courses</h1>
+                </div>
+                <div class="col">
+                    <h1>80+</h1>
+                    <h1>Mentors</h1>
+                </div>
+                <div class="col">
+                    <h1>10+</h1>
+                    <h1>Branches</h1>
+                </div>
+                <div class="col">
+                    <h1>121+</h1>
+                    <h1>Branches</h1>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- fourth section -->
+
+    <div class="container-fluid p-5" id="section4">
+        <div class="container p-5">
+
+            <div class="row pt-5 pb-5">
+                <div class="col mx-5" style="display: flex;">
+
+                    <img src="girl-image.png" alt="">
+                    <div class="a">
+                        <h3>Online Training</h3>
+                        <p>Learn the most in-demand skills and power ahead in your career</p>
+                    </div>
+                </div>
+                <div class="col mx-5" style="display: flex;">
+
+
+                    <div class="a px-3">
+                        <h3>Classroom Training</h3>
+                        <p>Learn the most in-demand skills and power ahead in your career</p>
+                    </div>
+                    <img src="boy-image.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- section five -->
+
+    <div class="container-fluid p-5" id="section5">
+        <h2>| 4Achievers Training Certification Globally Recognized |</h2> <br><br>
+        <div class="row">
+            <div class="col">
+                <img src="60f2f4fefb0e0b163e97372b_data-science-training-iabac.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="612aa9385a032607468e68e6_4Achievers Certificate.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- section six    -->
+
+    <div class="container-fluid p-5" id="section6">
+        <div class="container m-5">
+            <div class="a" style="text-align: center">
+                <h2>| Why 4Achievers...? |</h2><br>
+                <p style="font-style: italic; font-size: 25px; font-weight: 500;">"Empowering students to create
+                    solutions for tomorrow's challenges"</p><br>
+                <img src="path.png" alt="" width="99%"> <br><br><br>
+                <h3><i class="fas fa-check-circle"></i> 4Achievers is a global insitute for Full Stack Development, <br>
+                    Data Science and Software Testing</h3>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+
+
+    <!-- section seven -->
+
+    <div class="container-fluid p-5" id="section7">
+        <div class="container p-5">
+            <h2>| Testimonial |</h2> <br><br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="a" style="display: flex">
+                                <img src="girl-image.png" alt="" height="200px">
+                                <p class="card-title" style="font-weight: 500;"> <br><br> Thanks so much for your very
+                                    valuable training. I really enjoyed it, and appreciated that Nitin sir made it fun.
+                                    I feel much better prepared to deal with uncomfortable issues. Over all have good
+                                    teaching skills and able to resolve all the problems. and supportive. Thank you
+                                    experience and personable trainer. </p> <br>
+                            </div>
+                            <br>
+                            <h4 style="font-style: italic;">Rose Nalandai...</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="a" style="display: flex">
+                                <img src="boy-image.png" alt="" height="200px">
+                                <p class="card-title" style="font-weight: 500;"> <br><br> Thanks so much for your very
+                                    valuable training. I really enjoyed it, and appreciated that Nitin sir made it fun.
+                                    I feel much better prepared to deal with uncomfortable issues. Over all have good
+                                    teaching skills and able to resolve all the problems. and supportive. Thank you
+                                    experience and personable trainer. </p> <br>
+                            </div> <br>
+                            <h4 style="font-style: italic;">John Wick...</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section eight -->
+    <div class="container-fluid pt-3" id="section8
+     ">
+        <div class="container">
+            <div class="row pt-5" style="font-size: 30px; text-align: center;">
+
+                <h2>| 4Achivers Office Location |</h2> <br><br>
+                <div class="col">
+                    <img src="location1.svg" alt="">
+                    <h5>Noida</h5>
+                </div>
+                <div class="col">
+                    <img src="location2.svg" alt="">
+                    <h5>Greater Noida</h5>
+                </div>
+                <div class="col">
+                    <img src="location3.svg" alt="">
+                    <h5>Ghaziabad</h5>
+                </div>
+                <div class="col">
+                    <img src="location4.svg" alt="">
+                    <h5>Delhi</h5>
+                </div>
+                <div class="col">
+                    <img src="location5.svg" alt="">
+                    <h5>Indore</h5>
+                </div>
+                <div class="col">
+                    <img src="location6.svg" alt="">
+                    <h5>Gurugram</h5>
+                </div>
+                <div class="col">
+                    <img src="location7.svg" alt="">
+                    <h5>Mumbai</h5>
+                </div>
+                <div class="col">
+                    <img src="location8.png" alt="" height="80px">
+                    <h5>Chandigarh</h5>
+                </div>
+                <div class="col">
+                    <img src="location9.svg" alt="">
+                    <h5>Mohail</h5>
+                </div>
+                <div class="col">
+                    <img src="location10.svg" alt="">
+                    <h5>Bangalore</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <!-- section nine -->
+    <div class="containner-fluid p-5 " id="section9">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-sm">
+                    <h5>COMPANY</h5>
+                    <ul type="none">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Bootcamp</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h5>COURSES</h5>
+                    <ul type="none">
+                        <li><a href="#">Certified Data Scientist Course</a></li>
+                        <li><a href="#">Full Stack Development</a></li>
+                        <li><a href="#">Mern Development</a></li>
+                        <li><a href="#">Mean Development</a></li>
+                        <li><a href="#">Softerware Testing</a></li>
+                        <li><a href="#">Pythin for Data Science</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h5>COURSES CATEGORY</h5>
+                    <ul type="none">
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Software Testing</a></li>
+                        <li><a href="#">Data Analytics</a></li>
+                        <li><a href="#">RPA Robotics</a></li>
+                        <li><a href="#">Networking</a></li>
+                        <li><a href="#">Internship Training</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h5>COURSES CATEGORY</h5>
+                    <ul type="none">
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Software Testing</a></li>
+                        <li><a href="#">Data Analytics</a></li>
+                        <li><a href="#">RPA Robotics</a></li>
+                        <li><a href="#">Networking</a></li>
+                        <li><a href="#">Internship Training</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr style="color:gray">
+
+            <div class="row">
+                <h5>ADDRESS</h5>
+                <div class="col-sm">
+                    <h6>4Achievers- Noida Address </h6>
+                    <p>C-58, Captain Vijyant Thapar Marg, C Block, Sector 2, Noida, Uttar Pradesh 201301</p>
+                    <h6> 4Achievers- US Address</h6>
+                    <p>Suits – 3643, 539 W. Commerce St Dallas, Tx 75208</p>
+                </div>
+                <div class="col-sm">
+                    <h6>4Achievers- Noida Address</h6>
+                    <p>A-77, Sector 2
+                        Near Sector Metro 15 Station
+                        Noida
+                        201301</p>
+                    <h6>4Achievers- Mumbai Address</h6>
+                    <p>1 Shraddha Bhavan, Vishnu Nagar, Naupada,
+                        Thane West,
+                        Maharashtra, 400602</p>
+                </div>
+                <div class="col-sm">
+                    <h6>Noida</h6>
+                    <p>+91-8010XXXXXX</p>
+                    <h6>Mumbai</h6>
+                    <p>+91-8010XXXXXX</p>
+                    <h6>USA</h6>
+                    <p>+91-8010XXXXXX</p>
+                    <h6>Email</h6>
+                    <p>+91-8010XXXXXX</p>
+                </div>
+            </div>
+
+
+            <hr style="color:gray">
+
+            <div class="blog">
+                <ul type="none" style="display: flex;">
+                    <li><a href="#"> <img src="facebook.png" alt="" height="25px"><span
+                                style="margin-left: 5px;">Facebook</span> </a> </li>
+                    <li><a href="#"> <img src="instagram.png" alt="" height="50px" style="margin-top:-10px ;">
+                            <span>Instagram</span></a></li>
+                    <li><a href="#"> <img src="Twitter.png" alt="" height="25px"> <span>Twitter</span></a></li>
+
+
+                    <li><a href="#"> <img src="linkdin.png" alt="" height="25px"> <span>Linkdin</span></a></li>
+
+
+
+                    <li><a href="#"> <img src="youtube.png" alt="" height="30px"> <span>Youtube</span></a></li>
+
+                </ul>
+            </div>
+            <hr style="color:gray">
+
+        </div>
+    </div>
+</body>
+
+</html>
